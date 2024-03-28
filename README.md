@@ -1,3 +1,2 @@
-<style>H1{
- text-transform: capitalize; }</style>
-<H1>hola</H1>
+
+<H1>Hola</H1>
