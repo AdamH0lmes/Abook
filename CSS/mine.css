@@ -136,3 +136,17 @@ ul li {
   flex-direction: column;
   align-items: center;
 }
+.bob h3{
+  color: #704205;
+  margin-bottom: 20px;
+  font-size: 5vw;
+}
+.bob{
+  margin-top:15%;
+  padding: 10px;
+  color: #79490a;
+  text-wrap: wrap;
+  overflow: hidden;
+  width: 750px;
+  height: 400px;
+}
