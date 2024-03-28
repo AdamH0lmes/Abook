@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+body {
+  width: fit-content;
+  font-family: sans-serif;
+  background-color: #ffffff00;
+}
+#parent {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2vw;
+  height: 100%;
+}
+nav{
+  display: none;
+}
+nav:hover{
+  display: flex;
+}
+div.title {
+  display: flex;
+  align-items: baseline;
+  padding: 5px;
+  width: fit-content;
+  color: #79490a;
+}
+.title h1 {
+  font-family: serif;
+  font-size: 4vw;
+}
+div.title h3 {
+  color: hsla(34, 85%, 26%, 0.51);
+  font-size: 2vw;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #cacfca;
+}
+nav .nav {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-right: 15px;
+  justify-content: space-evenly;
+}
+.nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75%;
+  padding: 5px;
+  margin-left: 10px;
+  border: 1px solid #79490a3f;
+  border-radius: 5px;
+}
+.nav a {
+  text-decoration: none;
+  color: #79490a;
+  text-wrap: nowrap;
+}
+form {
+  margin: 50% 100%;
+  text-wrap: nowrap;
+  padding-left: 50px;
+}
+.parent div{
+  margin-top:20px ;
+  
+}
+.parent .title{
+  position: absolute;
+  top: 45px;
+  left: 30px;
+  font-size: 3vw;
+  color: #79490aa9;
+}
+.email input,
+.pass input,
+.submit input{
+  border: 2px solid #79490a;
+  padding: 7px;
+  width: 180px;
+  color: #4a2b02;
+  background-color: #79490a0b;
+  border-radius: 10px;
+}
+.submit input{
+  background-color: #704205;
+  color: #ffffff;
+}
+.icon {
+  width: 20px;
+}
+.or p{
+  font-size: 2vw;
+  color: #623800;
+  margin-left:5px ;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.links a{
+  margin-left: 10px;
+}
+.bob h3{
+  color: #704205;
+  margin-bottom: 20px;
+  font-size: 5vw;
+}
+.bob{
+  margin-top:15%;
+  padding: 10px;
+  color: #79490a;
+  text-wrap: wrap;
+  overflow: hidden;
+  width: 750px;
+  height: 400px;
+}
